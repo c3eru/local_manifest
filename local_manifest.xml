@@ -11,8 +11,4 @@
         
         <!-- Kernel -->
         <project path="kernel/xiaomi/juice" name="KERNEL_A11" remote="c3eru" revision="11.0" clone-depth="1" />
-
-        <!-- Clang -->
-        # <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
 </manifest>
