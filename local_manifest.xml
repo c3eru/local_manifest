@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+          
+        <remote name="c3eru"
+                fetch="https://github.com/c3eru" />
+        <remote name="Joaquin-000"
+                fetch="https://github.com/Joaquin-000" />
+        <remote name="kdrag0n"
+                fetch="https://github.com/kdrag0n" />
 
-        <!-- Remote -->
-        <remote name="c3eru" fetch="https://github.com/c3eru" />
-        <remote name="jq" fetch="https://github.com/Joaquin-000" />
-        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-        
-        <!-- Trees -->
+        <!-- Sync trees -->
         <project path="device/xiaomi/juice" name="exthm" remote="c3eru" revision="11.0" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="jq" revision="eleven" clone-depth="1" />
-
-        <!-- Replacements -->
-        <remove-project path="vendor/exthm" name="android_vendor_exthm" />
-        <project path="vendor/exthm" name="android_vendor_exthm" remote="c3eru" revision="exthm-11" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="Joaquin-000" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="KERNEL_A11" remote="c3eru" revision="11.0" clone-depth="1" />
         
-        <!-- Kernel -->
-        <project path="kernel/xiaomi/juice" name="KERNEL_A11" remote="c3eru" revision="11.0" clone-depth="1" /
-
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
+        <!-- Replacements -->
+        <remove-project name="android_vendor_exthm"/>
+        <project path="vendor/exthm" name="android_vendor_exthm" remote="c3eru" revision="exthm-11" clone-depth="1" />
+      
 </manifest>
