@@ -16,4 +16,9 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
+        <!-- Replacements -->
+        <remove-project path="system/sepolicy" name="platform_system_sepolicy" />
+        <project path="system/sepolicy" name="platform_system_sepolicy" remote="c3eru" revision="12.x" clone-depth="1" />
+        
+
 </manifest>
