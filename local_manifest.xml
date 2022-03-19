@@ -9,15 +9,11 @@
                 fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/juice" name="exthm" remote="c3eru" revision="11.0" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="Joaquin-000" revision="eleven" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="KERNEL_A11" remote="c3eru" revision="11.0" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="c3eru" revision="twelve" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="c3eru" revision="twelve" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="c3eru" revision="twelve" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
-        <!-- Replacements -->
-        <remove-project name="android_vendor_exthm"/>
-        <project path="vendor/exthm" name="android_vendor_exthm" remote="c3eru" revision="exthm-11" clone-depth="1" />
-      
 </manifest>
