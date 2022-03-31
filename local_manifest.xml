@@ -18,6 +18,14 @@
  
         <!-- Replacements -->
         <remove-project name="build" />
-        <project path="build/make" name="build-1" remote="c3eru" revision="twelve" clone-depth="1" />
+        <project path="build/make" name="build-1" remote="c3eru" revision="twelve" clone-depth="1">
+        <copyfile src="core/root.mk" dest="Makefile" />
+         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+         <linkfile src="core" dest="build/core" />
+         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+         <linkfile src="target" dest="build/target" />
+         <linkfile src="tools" dest="build/tools" />
+        </project>
         
 </manifest>
