@@ -3,8 +3,8 @@
           
         <remote name="c3eru"
                 fetch="https://github.com/c3eru" />
-        <remote name="lynzx"
-                fetch="https://github.com/lynnnnzx" />
+        <remote name="law"
+                fetch="https://github.com/CherishOS" />
         <remote name="kdrag0n"
                 fetch="https://github.com/kdrag0n" />
 
@@ -17,7 +17,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
  
         <!-- Clone -->
-        <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="lynzx" revision="twelve" clone-depth="1" />
+        <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="law" revision="twelve" clone-depth="1" />
  
 
         <!-- Replacements -->
