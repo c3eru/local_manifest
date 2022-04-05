@@ -27,5 +27,7 @@
          <linkfile src="target" dest="build/target" />
          <linkfile src="tools" dest="build/tools" />
         </project>
+        <remove-project name="vendor_aosp" />
+        <project path="vendor/aosp" name="vendor_aosp" remote="c3eru" revision="eleven-plus" clone-depth="1" />
         
 </manifest>
