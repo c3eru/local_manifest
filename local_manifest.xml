@@ -19,4 +19,7 @@
         <!-- Clone -->
         <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="law" revision="twelve" clone-depth="1" />
  
+        <remove-project name="android_system_sepolicy" />
+        <project path="system/sepolicy" name="android_system_sepolicy" remote="c3eru" revision="12.1" clone-depth="1" />
+
 </manifest>
