@@ -16,4 +16,8 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
  
+        <remove-project name="android_vendor_qcom_opensource_display" />
+        <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="c3eru" revision="dot12" clone-depth="1" />
+
+
 </manifest>
