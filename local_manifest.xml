@@ -14,7 +14,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="c3eru" revision="pe-plus" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="c3eru" revision="twelve" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="c3eru" revision="twelve" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="c3eru" revision="rvc" clone-depth="1" />
         
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
