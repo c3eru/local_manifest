@@ -5,8 +5,8 @@
                 fetch="https://github.com/c3eru" />
         <remote name="law"
                 fetch="https://github.com/CherishOS" />
-        <remote name="kdrag0n"
-                fetch="https://github.com/kdrag0n" />
+        <remote name="gf"
+                fetch="https://github.com/greenforce-project" />
         <remote  name="LineageOS"
            fetch="https://github.com/"
            revision="lineage-19.1" />
@@ -17,7 +17,7 @@
         <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="c3eru" revision="rvc" clone-depth="1" />
         
         <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-llvm" name="clang-llvm" remote="gf" revision="main" clone-depth="1" />
   
 
 
