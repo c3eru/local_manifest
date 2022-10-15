@@ -3,12 +3,13 @@
 
         <!-- Remote -->
         <remote name="mobx" fetch="https://github.com/MOBX-PROJECTS" />
-        
+        <remote  name="Jabiyeff" fetch="https://github.com/Jabiyeff" />
+
         <!-- Trees -->
         <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="mobx" revision="banana-12-stg" clone-depth="1" />
         
         <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="mobx" revision="banana-12-stg" clone-depth="1" />
         
-        <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common_header" remote="mobx" revision="banana-12" clone-depth="1" />
+        <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="Jabiyeff" revision="12"  clone-depth="1"/>
 
 </manifest>
