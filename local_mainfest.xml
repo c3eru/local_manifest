@@ -4,14 +4,14 @@
         <!-- Remote -->
         <remote name="mobx" fetch="https://github.com/MOBX-PROJECTS" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-        <remote name="dn" fetch="https://github.com/darknius20" />
+        <remote name="dn" fetch="https://github.com/MiCode" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
         
         <project path="vendor/xiaomi/juice" name="vendor-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
         
-        <project path="kernel/xiaomi/juice" name="Darkmoon_kernel" remote="dn" revision="lime-q-oss"  clone-depth="1"/>
+        <project path="kernel/xiaomi/juice" name="Xiaomi_Kernel_OpenSource" remote="dn" revision="lime-q-oss"  clone-depth="1"/>
     
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
