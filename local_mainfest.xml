@@ -4,7 +4,7 @@
         <!-- Remote -->
         <remote name="mobx" fetch="https://github.com/MOBX-PROJECTS" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-        <remote name="dn" fetch="https://github.com/darknius20/Darkmoon_kernel" />
+        <remote name="dn" fetch="https://github.com/darknius20" />
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="device-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
