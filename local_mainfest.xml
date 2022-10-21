@@ -7,7 +7,7 @@
         <remote name="etc" fetch="https://github.com/c3eru" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="device-xiaomi-juice" remote="mobx" revision="test" clone-depth="1" />
         
         <project path="vendor/xiaomi/juice" name="vendor-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
         
