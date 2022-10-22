@@ -21,6 +21,8 @@
         <project path="frameworks/base" name="android_frameworks_base" remote="etc" revision="10" clone-depth="1" />
         <remove-project name="vendor/themes" />
         <project path="vendor/themes" name="android_vendor_themes" remote="etc" revision="10" clone-depth="1" />
+        <remove-project name="packages/apps/DU-Tweaks" />
+        <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="etc" revision="10" clone-depth="1" />
 
  
 </manifest>
