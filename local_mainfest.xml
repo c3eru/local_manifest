@@ -16,7 +16,7 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
-        <!-- Replacement -- >
+        <!-- Replacement -->
         <remove-project name="frameworks/base" />
         <project path="frameworks/base" name="android_frameworks_base" remote="etc" revision="10" clone-depth="1" />
         <remove-project name="vendor/themes" />
