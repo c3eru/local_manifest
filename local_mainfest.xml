@@ -5,7 +5,6 @@
         <remote name="frstprjkt" fetch="https://github.com/frstprjkt" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="etc" fetch="https://github.com/c3eru" />
-        <remote name="los" fetch="https://github.com/LineageOS" />
         
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="xd_device_xiaomi_chime" remote="etc" revision="thirteen" clone-depth="1" />
@@ -14,8 +13,6 @@
         
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="frstprjkt" revision="thirteen"  clone-depth="1"/>
 
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="los" revision="lineage-20.0-legacy-um"  clone-depth="1"/>
-    
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
