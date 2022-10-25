@@ -2,16 +2,16 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="mobx" fetch="https://github.com/MOBX-PROJECTS" />
+        <remote name="mobx" fetch="https://github.com/c3eru" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-        <remote name="etc" fetch="https://github.com/c3eru" />
+        <remote name="fros" fetch="https://github.com/frstprjkt" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="device-xiaomi-juice" remote="mobx" revision="test" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="dtchime" remote="mobx" revision="lineage-19.1" clone-depth="1" />
         
-        <project path="vendor/xiaomi/juice" name="vendor-xiaomi-juice" remote="mobx" revision="A10" clone-depth="1" />
+        <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="fros" revision="twelve" clone-depth="1" />
         
-        <project path="kernel/xiaomi/juice" name="A10" remote="etc" revision="citrus-proton"  clone-depth="1"/>
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="fros" revision="twelve"  clone-depth="1"/>
     
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
