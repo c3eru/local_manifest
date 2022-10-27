@@ -2,13 +2,13 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="mobx" fetch="https://github.com/c3eru" />
+        <remote name="c3eru" fetch="https://github.com/c3eru" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="beku" fetch="https://github.com/frstprjkt" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="dtchime" remote="mobx" revision="lineage-19.1" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="dtchime" remote="c3eru" revision="lineage-19.1" clone-depth="1" />
         
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="beku" revision="twelve" clone-depth="1" />
         
