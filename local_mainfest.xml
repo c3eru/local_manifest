@@ -6,7 +6,7 @@
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="beku" fetch="https://github.com/frstprjkt" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
-        <remote name="los" fetch="https://github.com/LineageOS" />
+        <remote name="los" fetch="https://github.com/Evolution-X" />
         
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="dtawaken" remote="c3eru" revision="triton" clone-depth="1" />
@@ -15,7 +15,7 @@
         
         <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="rvc" clone-depth="1"/>
 
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20" clone-depth="1"/>
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="tiramisu" clone-depth="1"/>
     
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
