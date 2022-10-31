@@ -2,18 +2,24 @@
 <manifest>
 
         <!-- Remote -->
+        <remote name="NFS" fetch="https://github.com/NFS-project" />
         <remote name="frstprjkt" fetch="https://github.com/frstprjkt" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="etc" fetch="https://github.com/c3eru" />
+        <remote name="gfboy" fetch="https://github.com/greenforce-project" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="xd_device_xiaomi_chime" remote="etc" revision="thirteen" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="dtawaken" remote="etc" revision="derp" clone-depth="1" />
         
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="frstprjkt" revision="thirteen" clone-depth="1" />
         
-        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime-anya" remote="frstprjkt" revision="thirteen"  clone-depth="1"/>
+        <project path="kernel/xiaomi/chime" name="kernel_xiaomi_citrus_sm6115" remote="gfboy" revision="rvc"  clone-depth="1"/>
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+        <!-- hardware/interfaces -->
+        <remove-project name="hardware_interfaces" />
+        <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
 
 </manifest>
