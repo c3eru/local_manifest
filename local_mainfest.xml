@@ -7,6 +7,10 @@
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="etc" fetch="https://github.com/c3eru" />
         <remote name="gfboy" fetch="https://github.com/greenforce-project" />
+
+        <remote  name="xd"
+           fetch="https://github.com/xdroid-oss"
+           revision="thirteen" />
         
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="dtawaken" remote="etc" revision="derp" clone-depth="1" />
@@ -18,8 +22,6 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
-        <!-- hardware/interfaces -->
-        <remove-project name="hardware_interfaces" />
-        <project path="hardware/interfaces" name="android_hardware_interfaces" remote="NFS" revision="thirteen" />
+        <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xd" />
 
 </manifest>
