@@ -39,8 +39,5 @@
         <remove-project name="packages_apps_DerpSpace" />
         <project path="packages/apps/DerpSpace" name="derp_interface" remote="etc" revision="main" clone-depth="1" />
 
-        <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
- 
-
 
 </manifest>
