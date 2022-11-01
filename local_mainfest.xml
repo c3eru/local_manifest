@@ -11,6 +11,10 @@
         <remote  name="xd"
            fetch="https://github.com/xdroid-oss"
            revision="thirteen" />
+
+        <remote  name="derp"
+           fetch="https://github.com/DerpFest-AOSP"
+           revision="13" />
         
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="dtawaken" remote="etc" revision="derp" clone-depth="1" />
@@ -34,6 +38,9 @@
   
         <remove-project name="packages_apps_DerpSpace" />
         <project path="packages/apps/DerpSpace" name="derp_interface" remote="etc" revision="main" clone-depth="1" />
+
+        <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="derp" />
+ 
 
 
 </manifest>
