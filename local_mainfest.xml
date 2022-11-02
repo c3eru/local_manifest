@@ -33,11 +33,7 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="fw_derp" remote="etc" revision="main" clone-depth="1" />
 
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="derp_sett" remote="etc" revision="main" clone-depth="1" />
-  
-        <remove-project name="packages_apps_DerpSpace" />
-        <project path="packages/apps/DerpSpace" name="derp_interface" remote="etc" revision="main" clone-depth="1" />
-
+        <remove-project name="packages_apps_WallpaperPicker2" />
+        <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="etc" revision="13" clone-depth="1" />
 
 </manifest>
