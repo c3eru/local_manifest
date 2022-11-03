@@ -17,7 +17,7 @@
            revision="13" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="dtawaken" remote="etc" revision="derp" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="dtawaken" remote="etc" revision="triton" clone-depth="1" />
         
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="frstprjkt" revision="thirteen" clone-depth="1" />
         
@@ -29,11 +29,5 @@
         <!-- hardware/interfaces -->
         <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xd" />
-
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="fw_derp" remote="etc" revision="main" clone-depth="1" />
-
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="derp_sett" remote="etc" revision="main" clone-depth="1" />
 
 </manifest>
