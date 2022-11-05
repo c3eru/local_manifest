@@ -33,7 +33,4 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="fw_derp" remote="etc" revision="main" clone-depth="1" />
 
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="derp_sett" remote="etc" revision="main" clone-depth="1" />
-
 </manifest>
