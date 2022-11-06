@@ -30,7 +30,4 @@
         <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/xiaomi" name="xd_hardware_xiaomi" remote="xd" />
 
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="fw_derp" remote="etc" revision="main" clone-depth="1" />
-
 </manifest>
