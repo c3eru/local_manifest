@@ -32,7 +32,7 @@
 
 	<project
 		path="device/qcom/vendor-common"
-		name="device_qcom_vendor"
+		name="device_qcom_vendor-common"
 		remote="pixel-devices"
 		clone-depth="1"/>
 
