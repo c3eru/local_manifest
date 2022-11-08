@@ -25,6 +25,24 @@
 		clone-depth="1"/>
 
 	<project
+		path="device/qcom/qssi"
+		name="device_qcom_qssi"
+		remote="pixel-devices"
+		clone-depth="1"/>
+
+	<project
+		path="device/qcom/vendor-common"
+		name="device_qcom_vendor"
+		remote="pixel-devices"
+		clone-depth="1"/>
+
+	<project
+		path="vendor/qcom/common"
+		name="vendor_qcom_common"
+		remote="pixel-devices-blobs"
+		clone-depth="1"/>
+
+	<project
 		path="device/qcom/common"
 		name="device_qcom_common"
 		remote="pixel-devices"
