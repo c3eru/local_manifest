@@ -88,7 +88,14 @@
 		remote="pixel"
 		clone-depth="1"/>
 
-	<!-- Replacement  -->
+ 	<!-- Replacement  -->
+	<remove-project
+		name="device_qcom_sepolicy_vndr"/>
+
+	<project
+		path="device/qcom/sepolicy_vndr"
+		name="device_qcom_sepolicy_vndr"
+		remote="c3eru"/>
 	
 </manifest>
 
