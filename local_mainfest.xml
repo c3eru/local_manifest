@@ -3,6 +3,11 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<remote
+		name="c3eru"
+		fetch="https://github.com/c3eru"
+		revision="thirteen"/>
+
+	<remote
 		name="pixel"
 		fetch="https://github.com/PixelExperience"
 		revision="thirteen"
@@ -77,6 +82,15 @@
 		name="vendor_qcom_opensource_commonsys-intf_bluetooth"
 		remote="pixel"
 		clone-depth="1"/>
+
+	<!-- Replacement  -->
+	<remove-project
+		name="device_qcom_sepolicy_vndr"/>
+
+	<project
+		path="device/qcom/sepolicy_vndr"
+		name="device_qcom_sepolicy_vndr"
+		remote="c3eru"/>
 
 </manifest>
 
