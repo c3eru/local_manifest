@@ -93,5 +93,10 @@
 		name="vendor_qcom_opensource_core-utils"
 		remote="pixel"/>
 
+	<project
+		path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um"
+		name="vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um"
+		remote="pixel"/>
+
 </manifest>
 
