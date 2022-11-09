@@ -10,7 +10,7 @@
 	<remote
 		name="mobx"
 		fetch="https://github.com/MOBX-PROJECTS"
-		revision="thirteen"/>
+		revision="taffy"/>
 
 	<remote
 		name="pixel"
