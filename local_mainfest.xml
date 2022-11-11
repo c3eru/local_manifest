@@ -28,6 +28,11 @@
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
 		revision="thirteen"/>
 
+	<remote
+		name="pixel-gitlab-self-hosted"
+		fetch="https://gitlab.pixelexperience.org/android"
+		revision="thirteen"/>
+
 	<project
 		path="device/xiaomi/spes"
 		name="device_xiaomi_spes"
@@ -88,7 +93,17 @@
 		remote="pixel"
 		clone-depth="1"/>
 
- 	<!-- Replacement  -->
+	<project
+		path="external/faceunlock"
+		name="external_faceunlock"
+		remote="pixel-gitlab-self-hosted"/>
+
+	<project
+		path="packages/apps/FaceUnlockService"
+		name="packages_apps_FaceUnlockService"
+		remote="pixel"/>
+
+	<!-- Replacement  -->
 	<remove-project
 		name="device_qcom_sepolicy_vndr"/>
 
@@ -96,6 +111,5 @@
 		path="device/qcom/sepolicy_vndr"
 		name="device_qcom_sepolicy_vndr"
 		remote="c3eru"/>
-	
-</manifest>
 
+</manifest>
