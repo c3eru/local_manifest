@@ -72,15 +72,5 @@
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
 
-	<remove-project
-		name="packages_apps_Settings"/>
-
-	<project
-		path="packages/apps/Settings"
-		name="derp_sett"
-		remote="etc"
-		revision="mod"
-		clone-depth="1"/>
-
 </manifest>
 
