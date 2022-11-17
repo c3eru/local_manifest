@@ -83,7 +83,7 @@
 
 	<project
 		path="frameworks/base"
-		name="frameworks_base"
+		name="fw_derp"
 		groups="pdk-cw-fs,pdk-fs"
 		remote="etc"
 		revision="mod"/>
