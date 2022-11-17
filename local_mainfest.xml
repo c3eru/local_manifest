@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android">
-	
-    <!-- Remote -->
+
 	<remote
 		name="NFS"
 		fetch="https://github.com/NFS-project"/>
@@ -33,7 +32,6 @@
 		fetch="https://github.com/DerpFest-AOSP"
 		revision="13"/>
 
-    <!-- Trees -->
 	<project
 		path="device/xiaomi/chime"
 		name="dtawaken"
@@ -55,7 +53,6 @@
 		revision="main"
 		clone-depth="1"/>
 
-    <!-- Clang -->
 	<project
 		path="prebuilts/clang/host/linux-x86/clang-proton"
 		name="proton-clang"
@@ -63,7 +60,6 @@
 		revision="master"
 		clone-depth="1"/>
 
-    <!-- Replacement  -->
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
@@ -82,6 +78,15 @@
 		revision="mod"
 		clone-depth="1"/>
 
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="frameworks_base"
+		groups="pdk-cw-fs,pdk-fs"
+		remote="etc"
+		revision="mod"/>
 
 </manifest>
 
