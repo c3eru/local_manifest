@@ -52,7 +52,7 @@
 		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_citrus_sm6115"
 		remote="gfboy"
-		revision="rvc"
+		revision="main"
 		clone-depth="1"/>
 
     <!-- Clang -->
