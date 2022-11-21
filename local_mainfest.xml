@@ -8,7 +8,7 @@
         <remote name="gf" fetch="https://github.com/greenforce-project" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/chime" name="dtchime" remote="mobx" revision="los" clone-depth="1" />
+        <project path="device/xiaomi/chime" name="dtawaken" remote="mobx" revision="los" clone-depth="1" />
         
         <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="beku" revision="twelve" clone-depth="1" />
         
