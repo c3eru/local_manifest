@@ -17,5 +17,8 @@
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
-        
+        <project
+		path="hardware/xiaomi"
+		name="xd_hardware_xiaomi"
+		remote="xd"/>
 </manifest>
