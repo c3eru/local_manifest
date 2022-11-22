@@ -6,6 +6,10 @@
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="beku" fetch="https://github.com/frstprjkt" />
         <remote name="gf" fetch="https://github.com/greenforce-project" />
+        <remote
+		name="xd"
+		fetch="https://github.com/xdroid-oss"
+		revision="thirteen"/>
         
         <!-- Trees -->
         <project path="device/xiaomi/chime" name="dtawaken" remote="mobx" revision="los" clone-depth="1" />
