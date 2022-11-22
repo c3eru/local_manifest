@@ -22,7 +22,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
         <remove-project
-		name="android_hardware_lineage_compat"/>
+		name="LineageOS/android_hardware_lineage_compat"/>
 
         <project
 		path="hardware/xiaomi"
