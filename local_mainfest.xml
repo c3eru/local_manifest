@@ -76,7 +76,7 @@
 		name="fw_derp"
 		groups="pdk-cw-fs,pdk-fs"
 		remote="etc"
-		revision="mod"/>
+		revision="stg"/>
 
 </manifest>
 
