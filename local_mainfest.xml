@@ -3,53 +3,39 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<remote
-		name="NFS"
-		fetch="https://github.com/NFS-project"/>
-
-	<remote
-		name="frstprjkt"
-		fetch="https://github.com/frstprjkt"/>
-
-	<remote
 		name="kdrag0n"
 		fetch="https://github.com/kdrag0n"/>
 
 	<remote
-		name="etc"
+		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
 	<remote
-		name="gfboy"
+		name="greenforce-project"
 		fetch="https://github.com/greenforce-project"/>
 
 	<remote
-		name="xd"
-		fetch="https://github.com/xdroid-oss"
-		revision="thirteen"/>
-
-	<remote
-		name="derp"
-		fetch="https://github.com/DerpFest-AOSP"
-		revision="13"/>
+		name="pixel-devices-blobs"
+		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
 
 	<project
 		path="device/xiaomi/chime"
 		name="dtawaken"
-		remote="etc"
+		remote="c3eru"
 		revision="derp"
 		clone-depth="1"/>
 
 	<project
 		path="vendor/xiaomi/chime"
 		name="vendor_xiaomi_chime"
-		remote="frstprjkt"
+		remote="pixel-devices-blobs"
 		revision="thirteen"
 		clone-depth="1"/>
 
 	<project
 		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_citrus_sm6115"
-		remote="gfboy"
+		remote="greenforce-project"
 		revision="main"
 		clone-depth="1"/>
 
@@ -59,24 +45,6 @@
 		remote="kdrag0n"
 		revision="master"
 		clone-depth="1"/>
-
-	<remove-project
-		name="android_hardware_lineage_compat"/>
-
-	<project
-		path="hardware/xiaomi"
-		name="xd_hardware_xiaomi"
-		remote="xd"/>
-
-	<remove-project
-		name="frameworks_base"/>
-
-	<project
-		path="frameworks/base"
-		name="fw_derp"
-		groups="pdk-cw-fs,pdk-fs"
-		remote="etc"
-		revision="stg"/>
 
 </manifest>
 
