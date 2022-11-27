@@ -14,10 +14,6 @@
 		name="greenforce-project"
 		fetch="https://github.com/greenforce-project"/>
 
-	<remote
-		name="pixel-devices-blobs"
-		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
-
 	<project
 		path="device/xiaomi/chime"
 		name="dtawaken"
@@ -29,7 +25,6 @@
 		path="vendor/xiaomi/chime"
 		name="vendor_xiaomi_chime"
 		remote="pixel-devices-blobs"
-		revision="thirteen"
 		clone-depth="1"/>
 
 	<project
