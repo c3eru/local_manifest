@@ -42,6 +42,15 @@
 		clone-depth="1"/>
 
 	<remove-project
+		name="vendor_pixel-framework"/>
+
+	<project
+		path="vendor/pixel-framework"
+		name="vendor_pixel-framework"
+		remote="c3eru"
+		revision="thirteen-plus"/>
+
+	<remove-project
 		name="packages_apps_Settings"/>
 
 	<project
