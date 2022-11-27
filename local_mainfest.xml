@@ -41,5 +41,24 @@
 		revision="master"
 		clone-depth="1"/>
 
+	<remove-project
+		name="packages_apps_Settings"/>
+
+	<project
+		path="packages/apps/Settings"
+		name="Settings"
+		remote="c3eru"
+		revision="pe"/>
+
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fw_derp"
+		groups="pdk-cw-fs,pdk-fs"
+		remote="c3eru"
+		revision="pe"/>
+
 </manifest>
 
