@@ -48,26 +48,17 @@
 		path="vendor/pixel-framework"
 		name="vendor_pixel-framework"
 		remote="c3eru"
-		revision="thirteen-plus"/>
-
-	<remove-project
-		name="packages_apps_Settings"/>
-
-	<project
-		path="packages/apps/Settings"
-		name="Settings"
-		remote="c3eru"
-		revision="pe"/>
+		revision="staging"/>
 
 	<remove-project
 		name="frameworks_base"/>
 
 	<project
 		path="frameworks/base"
-		name="fw_derp"
+		name="fwb_aosp"
 		groups="pdk-cw-fs,pdk-fs"
 		remote="c3eru"
-		revision="pe"/>
+		revision="staging"/>
 
 </manifest>
 
