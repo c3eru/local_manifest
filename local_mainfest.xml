@@ -60,5 +60,14 @@
 		remote="c3eru"
 		revision="staging"/>
 
+	<remove-project
+		name="packages_apps_Settings"/>
+
+	<project
+		path="packages/apps/Settings"
+		name="Settings"
+		remote="c3eru"
+		revision="staging"/>
+
 </manifest>
 
