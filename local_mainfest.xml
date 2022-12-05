@@ -53,7 +53,7 @@
 
 	<project
 		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_citrus_sm6115"
+		name="kernel_xiaomi_chime"
 		remote="pixel-devices"
 		clone-depth="1"/>
 
