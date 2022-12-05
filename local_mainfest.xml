@@ -15,7 +15,7 @@
 		fetch="https://github.com/kdrag0n"/>
 
 	<remote
-		name="etc"
+		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
 	<remote
@@ -32,15 +32,15 @@
 		fetch="https://github.com/DerpFest-AOSP"
 		revision="13"/>
 
-	<remote 
+	<remote
 		name="pixel-devices"
 		fetch="https://github.com/PixelExperience-Devices"
-		revision="thirteen" />
+		revision="thirteen"/>
 
 	<project
 		path="device/xiaomi/chime"
 		name="dtawaken"
-		remote="etc"
+		remote="c3eru"
 		revision="derp"
 		clone-depth="1"/>
 
@@ -54,7 +54,7 @@
 	<project
 		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_citrus_sm6115"
-		remote="gfboy"
+		remote="c3eru"
 		revision="main"
 		clone-depth="1"/>
 
@@ -72,6 +72,35 @@
 		path="hardware/xiaomi"
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
+
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fwb_derp"
+		groups="pdk-cw-fs,pdk-fs"
+		remote="c3eru"
+		revision="staging"
+		clone-depth="1"/>
+
+	<remove-project
+		name="packages_apps_Settings"/>
+
+	<project
+		path="packages/apps/Settings"
+		name="settings_derp"
+		remote="c3eru"
+		revision="staging"/>
+
+	<remove-project
+		name="packages_apps_DerpSpace"/>
+
+	<project
+		path="packages/apps/DerpSpace"
+		name="settings_derp"
+		remote="c3eru"
+		revision="derp-space"/>
 
 </manifest>
 
