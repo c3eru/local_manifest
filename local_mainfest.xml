@@ -32,6 +32,11 @@
 		fetch="https://github.com/DerpFest-AOSP"
 		revision="13"/>
 
+	<remote 
+		name="pixel-devices"
+		fetch="https://github.com/PixelExperience-Devices"
+		revision="thirteen" />
+
 	<project
 		path="device/xiaomi/chime"
 		name="dtawaken"
@@ -49,8 +54,7 @@
 	<project
 		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_citrus_sm6115"
-		remote="gfboy"
-		revision="main"
+		remote="pixel-devices"
 		clone-depth="1"/>
 
 	<project
