@@ -54,7 +54,7 @@
 	<project
 		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_citrus_sm6115"
-		remote="gfboy"
+		remote="c3eru"
 		revision="main"
 		clone-depth="1"/>
 
