@@ -83,5 +83,23 @@
 		remote="c3eru"
 		revision="staging"
 		clone-depth="1"/>
+
+	<remove-project
+		name="packages_apps_Settings"/>
+
+	<project
+		path="packages/apps/Settings"
+		name="settings_derp"
+		remote="c3eru"
+		revision="staging"/>
+
+	<remove-project
+		name="packages_apps_DerpSpace"/>
+
+	<project
+		path="packages/apps/DerpSpace"
+		name="settings_derp"
+		remote="c3eru"
+		revision="derp-space"/>
 </manifest>
 
