@@ -1,15 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <!-- Remote -->
-        <remote name="mobx" fetch="https://github.com/MOBX-PROJECTS" />
-        <remote  name="Jabiyeff" fetch="https://github.com/Jabiyeff" />
+	<remote
+		name="mobx"
+		fetch="https://github.com/c3eru"/>
 
-        <!-- Trees -->
-        <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="mobx" revision="banana-12-stg" clone-depth="1" />
-        
-        <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="mobx" revision="banana-12-stg" clone-depth="1" />
-        
-        <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="Jabiyeff" revision="12"  clone-depth="1"/>
+	<remote
+		name="Jabiyeff"
+		fetch="https://github.com/Jabiyeff"/>
+
+	<remote
+		name="los"
+		fetch="https://github.com/LineageOS"/>
+
+	<project
+		path="device/xiaomi/spes"
+		name="android_device_xiaomi_spes"
+		remote="mobx"
+		revision="13-stg"
+		clone-depth="1"/>
+
+	<project
+		path="vendor/xiaomi/spes"
+		name="android_vendor_xiaomi_spes"
+		remote="mobx"
+		revision="13.0"
+		clone-depth="1"/>
+
+	<project
+		path="kernel/xiaomi/spes"
+		name="kernel_xiaomi_spes_header"
+		remote="Jabiyeff"
+		revision="12"
+		clone-depth="1"/>
+
+	<project
+		path="hardware/xiaomi"
+		name="android_hardware_xiaomi"
+		remote="los"
+		revision="lineage-20"
+		clone-depth="1"/>
 
 </manifest>
+
