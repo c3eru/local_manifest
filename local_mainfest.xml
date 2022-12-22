@@ -14,6 +14,10 @@
 		name="los"
 		fetch="https://github.com/LineageOS"/>
 
+	<remote
+		name="scnprh"
+		fetch="https://gitlab.com"/>
+
 	<project
 		path="device/xiaomi/spes"
 		name="android_device_xiaomi_spes"
@@ -33,6 +37,13 @@
 		name="kernel_xiaomi_spes_header"
 		remote="Jabiyeff"
 		revision="12"
+		clone-depth="1"/>
+
+	<project
+		path="prebuilts/clang/host/linux-x86/clang-r450784d"
+		name="ImSurajxD/clang-r450784d"
+		remote="scnprh"
+		revision="master"
 		clone-depth="1"/>
 
 	<project
