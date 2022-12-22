@@ -18,11 +18,16 @@
 		name="scnprh"
 		fetch="https://gitlab.com"/>
 
+	<remote
+		name="evo"
+		fetch="https://github.com/Evolution-X"
+		revision="refs/heads/tiramisu"/>
+
 	<project
 		path="device/xiaomi/spes"
 		name="android_device_xiaomi_spes"
 		remote="mobx"
-		revision="13-stg"
+		revision="13-stg-syb"
 		clone-depth="1"/>
 
 	<project
@@ -54,16 +59,21 @@
 		clone-depth="1"/>
 
 	<remove-project
-		name="LineageOS/android_hardware_lineage_compat"/>
-
-	<remove-project
-		name="LineageOS/android_hardware_qcom_bootctrl"/>
+		name="android_hardware_qcom_bootctrl"/>
 
 	<project
 		path="hardware/qcom-caf/bootctrl"
 		name="android_hardware_qcom_bootctrl"
 		remote="Jabiyeff"
 		revision="13.0"/>
+
+	<remove-project
+		name="platform/system/libhidl"/>
+
+	<project
+		path="system/libhidl"
+		name="system_libhidl"
+		remote="evo"/>
 
 </manifest>
 
