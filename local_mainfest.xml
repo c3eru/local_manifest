@@ -11,7 +11,7 @@
 		fetch="https://github.com/Jabiyeff"/>
 
 	<remote
-		name="los"
+		name="loss"
 		fetch="https://github.com/LineageOS"/>
 
 	<remote
@@ -45,16 +45,9 @@
 		clone-depth="1"/>
 
 	<project
-		path="prebuilts/clang/host/linux-x86/clang-r450784d"
-		name="ImSurajxD/clang-r450784d"
-		remote="scnprh"
-		revision="master"
-		clone-depth="1"/>
-
-	<project
 		path="hardware/xiaomi"
 		name="android_hardware_xiaomi"
-		remote="los"
+		remote="loss"
 		revision="lineage-20"
 		clone-depth="1"/>
 
