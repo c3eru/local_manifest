@@ -56,5 +56,14 @@
 	<remove-project
 		name="LineageOS/android_hardware_lineage_compat"/>
 
+	<remove-project
+		name="LineageOS/android_hardware_qcom_bootctrl"/>
+
+	<project
+		path="hardware/qcom-caf/bootctrl"
+		name="android_hardware_qcom_bootctrl"
+		remote="Jabiyeff"
+		revision="13.0"/>
+
 </manifest>
 
