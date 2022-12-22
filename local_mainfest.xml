@@ -12,7 +12,7 @@
 
 	<remote
 		name="loss"
-		fetch="https://github.com/LineageOS"/>
+		fetch="https://github.com/xdroid-oss"/>
 
 	<remote
 		name="scnprh"
@@ -46,9 +46,9 @@
 
 	<project
 		path="hardware/xiaomi"
-		name="android_hardware_xiaomi"
+		name="xd_hardware_xiaomi"
 		remote="loss"
-		revision="lineage-20"
+		revision="thirteen"
 		clone-depth="1"/>
 
 	<remove-project
