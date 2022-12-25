@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android">
@@ -13,6 +14,11 @@
 	<remote
 		name="c3eru-gitlab"
 		fetch="https://gitlab.com/c3eru"/>
+
+	<remote
+		name="evo"
+		fetch="https://github.com/Evolution-X"
+		revision="refs/heads/tiramisu"/>
 
 	<project
 		path="device/xiaomi/spes"
@@ -45,8 +51,8 @@
 
 	<project
 		path="packages/modules/Bluetooth"
-		name="android_packages_modules_Bluetooth"
-		remote="arrow"/>
+		name="packages_modules_Bluetooth"
+		remote="evo"/>
 
 </manifest>
 
