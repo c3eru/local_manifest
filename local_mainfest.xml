@@ -40,5 +40,13 @@
 		name="android_device_qcom_sepolicy_vndr-legacy-um"
 		remote="arrow"/>
 
+	<remove-project
+		name="xd_packages_modules_Bluetooth"/>
+
+	<project
+		path="packages/modules/Bluetooth"
+		name="android_packages_modules_Bluetooth"
+		remote="arrow"/>
+
 </manifest>
 
