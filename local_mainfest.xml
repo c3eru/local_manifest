@@ -15,9 +15,9 @@
 		fetch="https://gitlab.com/c3eru"/>
 
 	<remote
-		name="evo"
-		fetch="https://github.com/Evolution-X"
-		revision="refs/heads/tiramisu"/>
+		name="derp"
+		fetch="https://github.com/DerpFest-AOSP"
+		revision="13"/>
 
 	<project
 		path="device/xiaomi/spes"
@@ -42,8 +42,10 @@
 
 	<project
 		path="device/qcom/sepolicy_vndr-legacy-um"
-		name="android_device_qcom_sepolicy_vndr-legacy-um"
-		remote="arrow"/>
+		name="device_qcom_sepolicy_vndr"
+		groups="qcom,lahaina"
+		remote="derp"
+		revision="13-legacy-um"/>
 
 	<remove-project
 		name="xd_packages_modules_Bluetooth"/>
@@ -51,7 +53,8 @@
 	<project
 		path="packages/modules/Bluetooth"
 		name="packages_modules_Bluetooth"
-		remote="evo"/>
+		groups="pdk-cw-fs,pdk-fs"
+		remote="derp"/>
 
 </manifest>
 
