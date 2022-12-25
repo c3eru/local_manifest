@@ -11,14 +11,6 @@
 		fetch="https://github.com/Jabiyeff"/>
 
 	<remote
-		name="los"
-		fetch="https://github.com/LineageOS"/>
-
-	<remote
-		name="scnprh"
-		fetch="https://gitlab.com"/>
-
-	<remote
 		name="c3eru-gitlab"
 		fetch="https://gitlab.com/c3eru"/>
 
@@ -44,37 +36,9 @@
 		clone-depth="1"/>
 
 	<project
-		path="prebuilts/clang/host/linux-x86/clang-r450784d"
-		name="ImSurajxD/clang-r450784d"
-		remote="scnprh"
-		revision="master"
-		clone-depth="1"/>
-
-	<project
-		path="hardware/xiaomi"
-		name="android_hardware_xiaomi"
-		remote="los"
-		revision="lineage-20"
-		clone-depth="1"/>
-
-	<remove-project
-		name="LineageOS/android_hardware_lineage_compat"/>
-
-	<remove-project
-		name="LineageOS/android_hardware_qcom_bootctrl"/>
-
-	<project
-		path="hardware/qcom-caf/bootctrl"
-		name="android_hardware_qcom_bootctrl"
-		remote="Jabiyeff"
-		revision="13.0"/>
-
-	<project
-		path="vendor/gapps"
-		name="android_vendor_gapps"
-		remote="c3eru-gitlab"
-		revision="refs/heads/thirteen"
-		clone-depth="1"/>
+		path="device/qcom/sepolicy_vndr-legacy-um"
+		name="android_device_qcom_sepolicy_vndr-legacy-um"
+		remote="arrow"/>
 
 </manifest>
 
