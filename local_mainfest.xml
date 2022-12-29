@@ -40,6 +40,13 @@
 		revision="12"
 		clone-depth="1"/>
 
+	<project
+		path="hardware/xiaomi"
+		name="hardware_xiaomi"
+		remote="pixel"
+		revision="thirteen"
+		clone-depth="1"/>
+
 	
 </manifest>
 
