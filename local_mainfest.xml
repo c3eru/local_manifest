@@ -47,6 +47,11 @@
 		revision="thirteen"
 		clone-depth="1"/>
 
+	<project
+		path="device/qcom/sepolicy_vndr-legacy-um"
+		name="device_qcom_sepolicy-legacy-um"
+		remote="pixel"/>
+
 	
 </manifest>
 
