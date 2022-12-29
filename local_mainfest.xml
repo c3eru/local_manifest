@@ -52,6 +52,8 @@
 		name="device_qcom_sepolicy-legacy-um"
 		remote="pixel"/>
 
+	<remove-project
+		name="hardware_custom_compat"/>
 	
 </manifest>
 
