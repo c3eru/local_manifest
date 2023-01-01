@@ -20,8 +20,8 @@
 	<project
 		path="vendor/xiaomi/spes"
 		name="vendor_xiaomi_spes"
-		remote="evo-devices"
-		revision="tiramisu"
+		remote="mobx"
+		revision="thirteen"
 		clone-depth="1"/>
 
 	<project
