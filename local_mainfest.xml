@@ -3,36 +3,41 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<remote
-		name="mobx"
-		fetch="https://github.com/c3eru"/>
+		name="GH"
+		fetch="https://github.com"/>
 
 	<remote
-		name="Jabiyeff"
-		fetch="https://github.com/Jabiyeff"/>
+		name="GL"
+		fetch="https://gitlab.com"/>
 
 	<project
 		path="device/xiaomi/spes"
-		name="android_device_xiaomi_spes"
-		remote="mobx"
-		revision="thirteen"
-		clone-depth="1"/>
+		name="MOBX-PROJECTS/device_xiaomi_spes"
+		remote="GH"
+		revision="thirteen"/>
 
 	<project
 		path="vendor/xiaomi/spes"
-		name="vendor_xiaomi_spes"
-		remote="mobx"
-		revision="thirteen"
-		clone-depth="1"/>
+		name="MOBX-PROJECTS/vendor_xiaomi_spes"
+		remote="GH"
+		revision="thirteen"/>
 
 	<project
-		path="kernel/xiaomi/spes"
-		name="kernel_xiaomi_spes_header"
-		remote="Jabiyeff"
-		revision="12"
-		clone-depth="1"/>
+		path="device/xiaomi/sm6225-common"
+		name="MOBX-PROJECTS/device_xiaomi_sm6225-common"
+		remote="GH"
+		revision="thirteen"/>
 
-	<remove-project
-		name="android_hardware_lineage_compat"/>
+	<project
+		path="vendor/xiaomi/sm6225-common"
+		name="MOBX-PROJECTS/vendor_xiaomi_sm6225-common"
+		remote="GH"
+		revision="thirteen"/>
+
+	<project
+		path="kernel/xiaomi/sm6225-common"
+		name="dblenk-project/kernel_xiaomi_sm6225-common_header"
+		remote="GH"
+		revision="lineage-19.1"/>
 
 </manifest>
-
