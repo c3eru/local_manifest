@@ -88,5 +88,9 @@
 		remote="pixel"
 		clone-depth="1"/>
 
+	<project path="hardware/st/nfc"
+                 name="hardware_st_nfc"
+                 remote="pixel" />
+
 </manifest>
 
