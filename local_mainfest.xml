@@ -97,6 +97,6 @@
                  remote="pixel" />
 
 <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pixel" />
-
+<project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" />
 </manifest>
 
