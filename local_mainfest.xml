@@ -88,6 +88,10 @@
 		remote="pixel"
 		clone-depth="1"/>
 
+       <remove-project
+		name="platform/hardware/st/nfc"/>
+
+
 	<project path="hardware/st/nfc"
                  name="hardware_st_nfc"
                  remote="pixel" />
