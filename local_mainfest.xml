@@ -96,5 +96,7 @@
                  name="hardware_st_nfc"
                  remote="pixel" />
 
+<project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pixel" />
+
 </manifest>
 
