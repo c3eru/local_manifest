@@ -88,5 +88,15 @@
 		remote="pixel"
 		clone-depth="1"/>
 
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fw"
+		remote="c3eru"
+		clone-depth="1"/>
+ 
+
 </manifest>
 
