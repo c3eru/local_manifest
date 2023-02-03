@@ -39,5 +39,15 @@
 		revision="13"
 		clone-depth="1"/>
 
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fw"
+		remote="me"
+		revision="derp-ds"
+		clone-depth="1"/>
+
 </manifest>
 
