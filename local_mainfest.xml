@@ -35,12 +35,7 @@
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
-	<project
-		path="hardware/xiaomi"
-		name="hardware_xiaomi"
-		remote="me"
-		revision="13"
-		clone-depth="1"/>
+	
 
 </manifest>
 
