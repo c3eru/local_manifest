@@ -10,24 +10,27 @@
 		name="Jabiyeff"
 		fetch="https://github.com/Jabiyeff"/>
 
+	<remote
+		name="ssosd"
+		fetch="https://github.com/SuperiorOS-Devices"/>
+
 	<project
 		path="device/xiaomi/spes"
-		name="android_device_xiaomi_spes"
-		remote="me"
-		revision="13"/>
+		name="device_xiaomi_spes"
+		remote="ssosd"
+		revision="thirteen"/>
 
 	<project
 		path="vendor/xiaomi/spes"
-		name="android_vendor_xiaomi_spes"
-		remote="Jabiyeff"
-		revision="13.0"/>
+		name="vendor_xiaomi_spes"
+		remote="ssosd"
+		revision="thirteen"/>
 
 	<project
 		path="kernel/xiaomi/spes"
-		name="kernel_xiaomi_spes_header"
-		remote="Jabiyeff"
-		revision="12"
-		clone-depth="1"/>
+		name="kernel_xiaomi_spes"
+		remote="ssosd"
+		revision="thirteen"/>
 
 	<remove-project
 		name="android_hardware_lineage_compat"/>
@@ -37,16 +40,6 @@
 		name="hardware_xiaomi"
 		remote="me"
 		revision="13"
-		clone-depth="1"/>
-
-	<remove-project
-		name="frameworks_base"/>
-
-	<project
-		path="frameworks/base"
-		name="fw"
-		remote="me"
-		revision="derp-ds"
 		clone-depth="1"/>
 
 </manifest>
