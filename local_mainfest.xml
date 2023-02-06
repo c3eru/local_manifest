@@ -35,5 +35,15 @@
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
+        <remove-project
+		name="android_frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fw"
+		remote="me"
+		revision="ssod-mod"
+		clone-depth="1"/>
+
 </manifest>
 
