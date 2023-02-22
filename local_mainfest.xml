@@ -30,6 +30,11 @@
 		fetch="https://github.com/PixelExperience-Devices"
 		revision="thirteen"/>
 
+	<remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"
+          review="gerrit.pixelexperience.org" />
+
 	<project
 		path="device/xiaomi/chime"
 		name="android_device_xiaomi_chime"
@@ -73,8 +78,8 @@
 
 	<project
 		path="hardware/xiaomi"
-		name="xd_hardware_xiaomi"
-		remote="xd"/>
+		name="hardware_xiaomi"
+		remote="pixel"/>
 
 	<remove-project
 		name="frameworks_base"/>
