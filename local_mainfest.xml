@@ -78,8 +78,9 @@
 
 	<project
 		path="hardware/xiaomi"
-		name="hardware_xiaomi"
-		remote="pixel"/>
+		name="hardware_xiaomi-1"
+		remote="c3eru"
+		revision="thirteen"/>
 
 	<remove-project
 		name="frameworks_base"/>
