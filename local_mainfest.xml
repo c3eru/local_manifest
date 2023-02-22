@@ -76,5 +76,16 @@
 		name="xd_hardware_xiaomi"
 		remote="xd"/>
 
+	<remove-project
+		name="frameworks_base"/>
+
+	<project
+		path="frameworks/base"
+		name="fw"
+		groups="pdk-cw-fs,pdk-fs"
+		remote="c3eru"
+		revision="derp-ds"
+		clone-depth="1"/>
+
 </manifest>
 
