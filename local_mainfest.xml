@@ -39,7 +39,7 @@
 		remote="mobx"/>
 
 	<project
-		path="vendor_xiaomi_sm6115-common"
+		path="vendor/xiaomi/sm6115-common"
 		name="vendor_xiaomi_sm6115-common"
 		revision="lineage-20"
 		remote="mobx"/>
