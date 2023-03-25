@@ -66,5 +66,10 @@
 		name="hardware_qcom-caf_bengal_media"
 		remote="pixel"/>
 
+	<!-- Replacement -->
+	<remove-project
+		name="android_hardware_lineage_compat"/>
+
+
 </manifest>
 
