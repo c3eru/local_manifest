@@ -3,44 +3,68 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<remote
-		name="GH"
-		fetch="https://github.com"/>
+		name="pixel"
+		fetch="https://github.com/PixelExperience"
+		revision="thirteen"
+		review="gerrit.pixelexperience.org"/>
 
 	<remote
-		name="GL"
-		fetch="https://gitlab.com"/>
+		name="mobx"
+		fetch="https://github.com/MOBX-PROJECTS"/>
+
+
+	<!-- Trees for bengal -->
+	<project
+		path="device/xiaomi/citrus"
+		name="device_xiaomi_citrus"
+		revision="lineage-20"
+		remote="mobx"/>
 
 	<project
-		path="device/xiaomi/spes"
-		name="MOBX-PROJECTS/device_xiaomi_spes"
-		remote="GH"
-		revision="thirteen"/>
+		path="device/xiaomi/sm6115-common"
+		name="device_xiaomi_sm6115-common"
+		revision="lineage-20"
+		remote="mobx"/>
 
 	<project
-		path="vendor/xiaomi/spes"
-		name="MOBX-PROJECTS/vendor_xiaomi_spes"
-		remote="GH"
-		revision="thirteen"/>
+		path="device/xiaomi/sm6115-common-kernel"
+		name="device_xiaomi_sm6115-common-kernel"
+		revision="lineage-20"
+		remote="mobx"/>
 
 	<project
-		path="device/xiaomi/sm6225-common"
-		name="MOBX-PROJECTS/device_xiaomi_sm6225-common"
-		remote="GH"
-		revision="thirteen"/>
+		path="vendor/xiaomi/citrus"
+		name="vendor_xiaomi_citrus"
+		revision="lineage-20"
+		remote="mobx"/>
 
 	<project
-		path="vendor/xiaomi/sm6225-common"
-		name="MOBX-PROJECTS/vendor_xiaomi_sm6225-common"
-		remote="GH"
-		revision="thirteen"/>
+		path="vendor_xiaomi_sm6115-common"
+		name="vendor_xiaomi_sm6115-common"
+		revision="lineage-20"
+		remote="mobx"/>
+
+
+	<!-- Hardware for bengal -->
+	<project
+		path="hardware/qcom-caf/bengal/audio"
+		name="hardware_qcom-caf_bengal_audio"
+		remote="pixel"/>
 
 	<project
-		path="kernel/xiaomi/sm6225-common"
-		name="dblenk-project/kernel_xiaomi_sm6225-common_header"
-		remote="GH"
-		revision="lineage-19.1"/>
+		path="hardware/qcom-caf/bengal/display"
+		name="hardware_qcom-caf_bengal_display"
+		remote="pixel"/>
 
-	<remove-project
-		name="android_hardware_lineage_compat"/>
+	<project
+		path="hardware/qcom-caf/bengal/gps"
+		name="hardware_qcom-caf_bengal_gps"
+		remote="pixel"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/media"
+		name="hardware_qcom-caf_bengal_media"
+		remote="pixel"/>
 
 </manifest>
+
