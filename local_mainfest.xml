@@ -45,30 +45,26 @@
 		remote="mobx"/>
 
 
+	<remove-project
+		name="android_hardware_qcom_audio"/>
+	<remove-project
+		name="android_hardware_qcom_display"/>
+	<remove-project
+		name="android_hardware_qcom_media"/>
+	
+	<project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
+	<project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
+	<project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
+
 	<!-- Hardware for bengal -->
-	<project
-		path="hardware/qcom-caf/bengal/audio"
-		name="hardware_qcom-caf_bengal_audio"
-		remote="pixel"/>
+	<project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
+	<project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixel" />
+	<project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pixel" />
+	<project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pixel" />
 
-	<project
-		path="hardware/qcom-caf/bengal/display"
-		name="hardware_qcom-caf_bengal_display"
-		remote="pixel"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/gps"
-		name="hardware_qcom-caf_bengal_gps"
-		remote="pixel"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/media"
-		name="hardware_qcom-caf_bengal_media"
-		remote="pixel"/>
 
 	<!-- Replacement -->
-	<remove-project
-		name="android_hardware_lineage_compat"/>
+	<remove-project name="android_hardware_lineage_compat"/>
 
 
 </manifest>
