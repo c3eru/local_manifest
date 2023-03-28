@@ -12,9 +12,7 @@
 		name="mobx"
 		fetch="https://github.com/MOBX-PROJECTS"/>
 
-	<remote
-		name="c3eru"
-		fetch="https://github.com/c3eru"/>
+	<remote name="c3eru" fetch="https://github.com/c3eru"/>
 
 
 	<!-- Trees for bengal -->
