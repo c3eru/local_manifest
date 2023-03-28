@@ -13,6 +13,7 @@
 		fetch="https://github.com/MOBX-PROJECTS"/>
 
 	<remote name="c3eru" fetch="https://github.com/c3eru"/>
+	<remote name="frstprjkt" fetch="https://github.com/frstprjkt"/>
 
 
 	<!-- Trees for bengal -->
@@ -26,25 +27,25 @@
 		path="device/xiaomi/sm6115-common"
 		name="device_xiaomi_sm6115-common"
 		revision="lineage-20"
-		remote="mobx"/>
+		remote="frstprjkt"/>
 
 	<project
 		path="device/xiaomi/sm6115-common-kernel"
 		name="device_xiaomi_sm6115-common-kernel"
 		revision="lineage-20"
-		remote="mobx"/>
+		remote="frstprjkt"/>
 
 	<project
 		path="vendor/xiaomi/citrus"
 		name="vendor_xiaomi_citrus"
 		revision="lineage-20"
-		remote="mobx"/>
+		remote="frstprjkt"/>
 
 	<project
 		path="vendor/xiaomi/sm6115-common"
 		name="vendor_xiaomi_sm6115-common"
 		revision="lineage-20"
-		remote="mobx"/>
+		remote="frstprjkt"/>
 
         <!-- Hardware for bengal -->
 	<project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
