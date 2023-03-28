@@ -12,6 +12,10 @@
 		name="mobx"
 		fetch="https://github.com/MOBX-PROJECTS"/>
 
+	<remote
+		name="c3eru"
+		fetch="https://github.com/c3eru"/>
+
 
 	<!-- Trees for bengal -->
 	<project
@@ -54,7 +58,7 @@
 	<remove-project name="android_hardware_lineage_compat"/>
 	<remove-project name="android_vendor_banana"/>
 
-        <project path="vendor/banana" name="android_vendor_banana" remote="mobx" />
+        <project path="vendor/banana" name="android_vendor_banana" remote="c3eru" />
 
 </manifest>
 
