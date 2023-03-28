@@ -56,7 +56,7 @@
 	<remove-project name="android_hardware_lineage_compat"/>
 	<remove-project name="android_vendor_banana"/>
 
-        <project path="vendor/banana" name="android_vendor_banana" remote="c3eru" />
-
+        <project path="vendor/banana" name="android_vendor_banana" remote="c3eru" revision="13" />
+  
 </manifest>
 
