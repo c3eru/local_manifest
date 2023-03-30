@@ -12,11 +12,14 @@
 		name="mobx"
 		fetch="https://github.com/MOBX-PROJECTS"/>
 
-	<remote name="c3eru" fetch="https://github.com/c3eru"/>
-	<remote name="frstprjkt" fetch="https://github.com/frstprjkt"/>
+	<remote
+		name="c3eru"
+		fetch="https://github.com/c3eru"/>
 
+	<remote
+		name="frstprjkt"
+		fetch="https://github.com/frstprjkt"/>
 
-	<!-- Trees for bengal -->
 	<project
 		path="device/xiaomi/citrus"
 		name="device_xiaomi_citrus"
@@ -53,11 +56,17 @@
 		revision="main"
 		remote="c3eru"/>
 
-	<!-- Replacement -->
-	<remove-project name="android_hardware_lineage_compat"/>
-	<remove-project name="android_vendor_banana"/>
+	<remove-project
+		name="android_hardware_lineage_compat"/>
 
-        <project path="vendor/banana" name="android_vendor_banana" remote="c3eru" revision="13" />
-  
+	<remove-project
+		name="android_vendor_banana"/>
+
+	<project
+		path="vendor/banana"
+		name="android_vendor_banana"
+		remote="c3eru"
+		revision="13"/>
+
 </manifest>
 
