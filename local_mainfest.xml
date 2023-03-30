@@ -47,6 +47,12 @@
 		revision="lineage-20"
 		remote="frstprjkt"/>
 
+	<project
+		path="kernel/xiaomi/sm6115"
+		name="kernel_xiaomi_citrus_sm6115"
+		revision="main"
+		remote="c3eru"/>
+
         <!-- Hardware for bengal -->
 	<project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
 	<project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixel" />
