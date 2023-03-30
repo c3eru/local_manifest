@@ -26,8 +26,8 @@
 	<project
 		path="device/xiaomi/sm6115-common"
 		name="device_xiaomi_sm6115-common"
-		revision="lineage-20"
-		remote="frstprjkt"/>
+		revision="stg"
+		remote="c3eru"/>
 
 	<project
 		path="device/xiaomi/sm6115-common-kernel"
@@ -53,11 +53,12 @@
 		revision="main"
 		remote="c3eru"/>
 
-        <!-- Hardware for bengal -->
+        <!-- Hardware for bengal
 	<project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
 	<project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixel" />
 	<project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pixel" />
 	<project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pixel" />
+        -->
 
 	<!-- Replacement -->
 	<remove-project name="android_hardware_lineage_compat"/>
