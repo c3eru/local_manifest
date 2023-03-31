@@ -29,8 +29,8 @@
 	<project
 		path="device/xiaomi/sm6115-common"
 		name="device_xiaomi_sm6115-common"
-		revision="stg"
-		remote="c3eru"/>
+		revision="lineage-20"
+		remote="frstprjkt"/>
 
 	<project
 		path="device/xiaomi/sm6115-common-kernel"
@@ -65,8 +65,26 @@
 	<project
 		path="vendor/banana"
 		name="android_vendor_banana"
-		remote="c3eru"
-		revision="13"/>
+		revision="13"
+		remote="c3eru"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/audio"
+		name="hardware_qcom_audio"
+		revision="lineage-20"
+		remote="frstprjkt"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/display"
+		name="hardware_qcom_display"
+		revision="lineage-20"
+		remote="frstprjkt"/>
+
+	<project
+		path="hardware/qcom-caf/bengal/media"
+		name="hardware_qcom_media"
+		revision="lineage-20"
+		remote="frstprjkt"/>
 
 </manifest>
 
