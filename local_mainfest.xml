@@ -68,23 +68,7 @@
 		revision="13"
 		remote="c3eru"/>
 
-	<project
-		path="hardware/qcom-caf/bengal/audio"
-		name="hardware_qcom_audio"
-		revision="lineage-20"
-		remote="frstprjkt"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/display"
-		name="hardware_qcom_display"
-		revision="lineage-20"
-		remote="frstprjkt"/>
-
-	<project
-		path="hardware/qcom-caf/bengal/media"
-		name="hardware_qcom_media"
-		revision="lineage-20"
-		remote="frstprjkt"/>
+	
 
 </manifest>
 
