@@ -52,8 +52,8 @@
 
 	<project
 		path="kernel/xiaomi/sm6115"
-		name="kernel_xiaomi_citrus_sm6115"
-		revision="main"
+		name="kernel_xiaomi_sm6115"
+		revision="stg"
 		remote="c3eru"/>
 
 	<remove-project
