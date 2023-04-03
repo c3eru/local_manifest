@@ -9,6 +9,16 @@
 		review="gerrit.pixelexperience.org"/>
 
 	<remote
+		name="pixel-devices"
+		fetch="https://github.com/PixelExperience-Devices"
+		revision="thirteen"/>
+
+	<remote
+		name="pixel-devices-blobs"
+		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+		revision="thirteen"/>
+
+	<remote
 		name="mobx"
 		fetch="https://github.com/MOBX-PROJECTS"/>
 
@@ -21,37 +31,28 @@
 		fetch="https://github.com/frstprjkt"/>
 
 	<project
-		path="device/xiaomi/citrus"
-		name="device_xiaomi_citrus"
-		revision="lineage-20"
-		remote="mobx"/>
-
-	<project
-		path="device/xiaomi/sm6115-common"
-		name="device_xiaomi_sm6115-common"
-		revision="stg"
+		path="device/xiaomi/chime"
+		name="device_xiaomi_chime2"
+		revision="banana"
 		remote="c3eru"/>
 
 	<project
-		path="device/xiaomi/sm6115-common-kernel"
-		name="device_xiaomi_sm6115-common-kernel"
-		revision="lineage-20"
-		remote="frstprjkt"/>
+		path="vendor/xiaomi/chime"
+		name="vendor_xiaomi_chime"
+		remote="pixel-devices-blobs"/>
 
 	<project
 		path="vendor/xiaomi/citrus"
 		name="vendor_xiaomi_citrus"
-		revision="lineage-20"
-		remote="frstprjkt"/>
+		remote="pixel-devices-blobs"/>
 
 	<project
-		path="vendor/xiaomi/sm6115-common"
-		name="vendor_xiaomi_sm6115-common"
-		revision="lineage-20"
-		remote="frstprjkt"/>
+		path="vendor/xiaomi/lime"
+		name="vendor_xiaomi_lime"
+		remote="pixel-devices-blobs"/>
 
 	<project
-		path="kernel/xiaomi/sm6115"
+		path="kernel/xiaomi/chime"
 		name="kernel_xiaomi_sm6115"
 		revision="stg"
 		remote="c3eru"/>
@@ -67,8 +68,6 @@
 		name="android_vendor_banana"
 		revision="13"
 		remote="c3eru"/>
-
-	
 
 </manifest>
 
