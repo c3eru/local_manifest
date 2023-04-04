@@ -53,8 +53,8 @@
 
 	<project
 		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_sm6115"
-		revision="stg"
+		name="kernel_xiaomi_sm6115-1"
+		revision="thirteen"
 		remote="c3eru"/>
 
 	<remove-project
