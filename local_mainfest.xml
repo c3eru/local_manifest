@@ -3,71 +3,43 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<remote
-		name="pixel"
-		fetch="https://github.com/PixelExperience"
-		revision="thirteen"
-		review="gerrit.pixelexperience.org"/>
-
-	<remote
-		name="pixel-devices"
-		fetch="https://github.com/PixelExperience-Devices"
-		revision="thirteen"/>
-
-	<remote
-		name="pixel-devices-blobs"
-		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-		revision="thirteen"/>
-
-	<remote
-		name="mobx"
-		fetch="https://github.com/MOBX-PROJECTS"/>
+		name="kdrag0n"
+		fetch="https://github.com/kdrag0n"/>
 
 	<remote
 		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
-	<remote
-		name="frstprjkt"
-		fetch="https://github.com/frstprjkt"/>
-
 	<project
-		path="device/xiaomi/chime"
-		name="device_xiaomi_chime2"
+		path="device/xiaomi/citrus"
+		name="dtcit"
+		remote="c3eru"
 		revision="banana"
-		remote="c3eru"/>
-
-	<project
-		path="vendor/xiaomi/chime"
-		name="vendor_xiaomi_chime"
-		remote="pixel-devices-blobs"/>
+		clone-depth="1"/>
 
 	<project
 		path="vendor/xiaomi/citrus"
-		name="vendor_xiaomi_citrus"
-		remote="pixel-devices-blobs"/>
+		name="vtcit"
+		remote="c3eru"
+		revision="13"
+		clone-depth="1"/>
 
 	<project
-		path="vendor/xiaomi/lime"
-		name="vendor_xiaomi_lime"
-		remote="pixel-devices-blobs"/>
+		path="kernel/xiaomi/citrus"
+		name="kernel_xiaomi_citrus_sm6115"
+		remote="c3eru"
+		revision="main"
+		clone-depth="1"/>
 
 	<project
-		path="kernel/xiaomi/chime"
-		name="kernel_xiaomi_sm6115-1"
-		revision="thirteen"
-		remote="c3eru"/>
+		path="prebuilts/clang/host/linux-x86/clang-proton"
+		name="proton-clang"
+		remote="kdrag0n"
+		revision="master"
+		clone-depth="1"/>
 
 	<remove-project
 		name="android_hardware_lineage_compat"/>
-
-	<remove-project
-		name="android_vendor_banana"/>
-
-	<project
-		path="vendor/banana"
-		name="android_vendor_banana"
-		revision="13"
-		remote="c3eru"/>
 
 </manifest>
 
