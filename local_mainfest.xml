@@ -10,6 +10,10 @@
 		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
+	<remote
+		name="los"
+		fetch="https://github.com/LineageOS"/>
+
 	<project
 		path="device/xiaomi/citrus"
 		name="dtcit"
@@ -36,6 +40,13 @@
 		name="proton-clang"
 		remote="kdrag0n"
 		revision="master"
+		clone-depth="1"/>
+
+	<project
+		path="hardware/xiaomi"
+		name="android_hardware_xiaomi"
+		remote="los"
+		revision="lineage-20"
 		clone-depth="1"/>
 
 	<remove-project
