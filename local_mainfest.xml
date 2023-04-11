@@ -14,7 +14,7 @@
 		path="device/xiaomi/citrus"
 		name="dtcit"
 		remote="c3eru"
-		revision="banana"
+		revision="los"
 		clone-depth="1"/>
 
 	<project
