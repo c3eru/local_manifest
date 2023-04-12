@@ -44,9 +44,6 @@
 		clone-depth="1"/>
 
 	<remove-project
-		name="android_hardware_lineage_compat"/>
-
-	<remove-project
 		name="platform_packages_apps_Launcher3"/>
 
 	<remove-project
