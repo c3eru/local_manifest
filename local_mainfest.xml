@@ -10,6 +10,11 @@
 		name="c3eru"
 		fetch="https://github.com/c3eru"/>
 
+	<remote
+		name="evo"
+		fetch="https://github.com/Evolution-X"
+		revision="refs/heads/tiramisu"/>
+
 	<project
 		path="device/xiaomi/citrus"
 		name="dtcit"
@@ -60,6 +65,19 @@
 		remote="c3eru"
 		revision="13"
 		clone-depth="1"/>
+
+	<project
+		path="hardware/xiaomi"
+		name="hardware_xiaomi"
+		remote="evo"/>
+
+	<remove-project
+		name="platform/system/libhidl"/>
+
+	<project
+		path="system/libhidl"
+		name="system_libhidl"
+		remote="evo"/>
 
 </manifest>
 
