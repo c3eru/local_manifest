@@ -41,5 +41,15 @@
 	<remove-project
 		name="android_hardware_lineage_compat"/>
 
+	<remove-project
+		name="platform_packages_apps_Launcher3"/>
+
+	<project
+		path="packages/apps/Launcher3"
+		name="platform_packages_apps_Launcher3"
+		remote="c3eru"
+		revision="patch-1"
+		clone-depth="1"/>
+
 </manifest>
 
