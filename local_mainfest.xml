@@ -43,18 +43,11 @@
 		revision="master"
 		clone-depth="1"/>
 
-	<remove-project
-		name="platform_packages_apps_Launcher3"/>
-
+	
 	<remove-project
 		name="platform_frameworks_base"/>
 
-	<project
-		path="packages/apps/Launcher3"
-		name="platform_packages_apps_Launcher3"
-		remote="c3eru"
-		revision="patch-1"
-		clone-depth="1"/>
+	
 
 	<project
 		path="frameworks/base"
