@@ -11,6 +11,10 @@
 	<remote
 		name="c3eru"
 		fetch="https://github.com/c3eru"/>
+	
+	<remote
+		name="kdrag0n"
+		fetch="https://github.com/kdrag0n"/>
 
 	<project
 		path="device/xiaomi/citrus"
